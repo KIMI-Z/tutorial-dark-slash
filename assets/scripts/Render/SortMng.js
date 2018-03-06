@@ -11,6 +11,8 @@ cc.Class({
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
+        //print('enter SortMng js');
+        //cc.log('Enter SortMng onLoad =============>');
         if (++this.frameCount % 6 === 0) {
             this.sortChildrenByY();
         }

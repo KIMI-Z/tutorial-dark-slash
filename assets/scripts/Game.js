@@ -16,6 +16,7 @@ cc.Class({
 
     // use this for initialization
     onLoad () {
+        cc.log ("Enter game.js");
         this.playerFX = this.playerFX.getComponent('PlayerFX');
         this.playerFX.init(this);
         this.player = this.player.getComponent('Player');
